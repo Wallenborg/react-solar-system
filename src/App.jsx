@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Spaceship from "./components/Spaceship";
 import ScrollInfo from "./components/ScrollInfo";
 import AllPlanets from "./components/AllPlanets";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Spaceship />
       <ScrollInfo />
       <AllPlanets />
+      <Footer />
     </div>
   );
 }

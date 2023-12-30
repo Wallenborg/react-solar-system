@@ -18,6 +18,16 @@ function AllPlanets() {
         link="https://en.wikipedia.org/wiki/Earth"
         className="earth"
       />
+      <Planet
+        name="mars"
+        link="https://en.wikipedia.org/wiki/Mars"
+        className="mars"
+      />
+      <Planet
+        name="jupiter"
+        link="https://en.wikipedia.org/wiki/Jupiter"
+        className="jupiter"
+      />
     </>
   );
 }

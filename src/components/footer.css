@@ -1,0 +1,12 @@
+/* footer */
+.footer-space {
+  margin-top: 100px;
+}
+
+.footer-text {
+  margin-top: 1px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: firebrick;
+  border-bottom: solid 2px firebrick;
+}
