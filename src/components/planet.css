@@ -1,0 +1,124 @@
+/* planets */
+
+.continer-planet {
+  margin-top: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.planet-name {
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: monospace;
+  width: fit-content;
+  color: antiquewhite;
+  border: 1px antiquewhite solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.planet {
+  border-radius: 100%;
+}
+
+.mercury {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(169, 169, 169);
+  align-self: center;
+  justify-self: center;
+}
+.mercury-place {
+  margin-top: 45347px;
+}
+
+.venus {
+  width: 9px;
+  height: 9px;
+  background-color: rgb(255, 165, 0);
+  align-self: center;
+  justify-self: center;
+}
+.venus-place {
+  margin-top: 39023px;
+}
+
+.earth {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 0, 255);
+  align-self: center;
+  justify-self: center;
+}
+.earth-place {
+  margin-top: 32487px;
+}
+
+.mars {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(255, 0, 0);
+  align-self: center;
+  justify-self: center;
+}
+.mars-place {
+  margin-top: 60624px;
+}
+
+.jupiter {
+  width: 114px;
+  height: 114px;
+  background-color: rgb(244, 164, 96);
+  align-self: center;
+  justify-self: center;
+}
+.jupiter-place {
+  margin-top: 431400px;
+}
+
+.saturn {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(218, 165, 32);
+  align-self: center;
+  justify-self: center;
+}
+.saturn-place {
+  margin-top: 509023px;
+}
+
+.uranus {
+  width: 41px;
+  height: 41px;
+  background-color: rgb(0, 206, 209);
+  align-self: center;
+  justify-self: center;
+}
+.uranus-place {
+  margin-top: 1125467px;
+}
+
+.neptune {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 0, 128);
+  align-self: center;
+  justify-self: center;
+}
+.neptune-place {
+  margin-top: 1264651px;
+}
+
+.pluto {
+  width: 2px;
+  height: 2px;
+  background-color: rgb(128, 128, 128);
+  align-self: center;
+  justify-self: center;
+}
+.pluto-place {
+  margin-top: 1105569px;
+}

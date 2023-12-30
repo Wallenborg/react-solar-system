@@ -1,0 +1,45 @@
+/* header */
+
+.continer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-top: 70px;
+  font-size: 5rem;
+  font-family: monospace;
+  color: firebrick;
+}
+
+.sub-titel {
+  margin-top: 1px;
+  font-size: 1rem;
+  font-family: monospace;
+  color: firebrick;
+}
+
+.header-text-scale {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 5px;
+  color: antiquewhite;
+  text-align: end;
+}
+
+.header-text {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.header-text-time {
+  width: 80%;
+  font-size: 0.9rem;
+  max-width: 600px;
+  color: firebrick;
+}

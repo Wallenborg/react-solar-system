@@ -1,0 +1,8 @@
+/* spaceship */
+.spaceship {
+  position: fixed;
+  top: 110px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+}

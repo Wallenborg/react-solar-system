@@ -1,0 +1,57 @@
+/* css Resetting */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.865);
+  height: 2000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* global */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+.footer-space {
+  margin-top: 100px;
+}
+
+.footer-text {
+  margin-top: 1px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: firebrick;
+  border-bottom: solid 2px firebrick;
+}

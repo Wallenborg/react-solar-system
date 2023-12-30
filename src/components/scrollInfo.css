@@ -1,0 +1,11 @@
+.fixed-text {
+  position: fixed;
+  top: 10px;
+  left: 10%;
+  background: white;
+  color: rgba(0, 0, 0, 0.865);
+  padding: 10px;
+  margin: 0;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+}
