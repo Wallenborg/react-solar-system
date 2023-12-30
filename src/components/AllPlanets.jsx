@@ -28,6 +28,26 @@ function AllPlanets() {
         link="https://en.wikipedia.org/wiki/Jupiter"
         className="jupiter"
       />
+      <Planet
+        name="saturn"
+        link="https://en.wikipedia.org/wiki/Saturn"
+        className="saturn"
+      />
+      <Planet
+        name="uranus"
+        link="https://en.wikipedia.org/wiki/Uranus"
+        className="uranus"
+      />
+      <Planet
+        name="neptune"
+        link="https://en.wikipedia.org/wiki/Neptune"
+        className="neptune"
+      />
+      <Planet
+        name="pluto"
+        link="https://en.wikipedia.org/wiki/Pluto"
+        className="pluto"
+      />
     </>
   );
 }
