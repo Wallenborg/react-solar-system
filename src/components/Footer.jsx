@@ -2,8 +2,10 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer class="footer-space">
-      <p class="footer-text">You have reached the end of our solar system</p>
+    <footer className="footer-space">
+      <p className="footer-text">
+        You have reached the end of our solar system
+      </p>
     </footer>
   );
 }

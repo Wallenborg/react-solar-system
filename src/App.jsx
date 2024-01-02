@@ -4,6 +4,8 @@ import Spaceship from "./components/Spaceship";
 import ScrollInfo from "./components/ScrollInfo";
 import AllPlanets from "./components/AllPlanets";
 import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
+import AllAlerts from "./components/AllAlerts";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Header />
       <Spaceship />
       <ScrollInfo />
+      <BackToTop />
       <AllPlanets />
+      <AllAlerts />
       <Footer />
     </div>
   );

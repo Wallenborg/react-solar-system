@@ -1,7 +1,7 @@
 import React from "react";
 import "./Planet.css";
 
-const Planet = ({ name, link, className }) => {
+function Planet({ name, link, className }) {
   return (
     <div className={`continer-planet ${className}-place`}>
       <a href={link} target="_blank">
@@ -10,6 +10,6 @@ const Planet = ({ name, link, className }) => {
       <div className={`planet ${className}`}></div>
     </div>
   );
-};
+}
 
 export default Planet;
