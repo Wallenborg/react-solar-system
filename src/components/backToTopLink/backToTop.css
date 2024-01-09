@@ -1,12 +1,14 @@
 .text {
   position: fixed;
-  top: 80px;
+  top: 120px;
   left: 7%;
   font-size: 0.7rem;
   font-family: monospace;
   width: fit-content;
   color: antiquewhite;
+  background-color: rgb(37, 36, 36);
   border: 1px antiquewhite solid;
   padding: 2px 10px;
   border-radius: 3px;
+  cursor: pointer;
 }

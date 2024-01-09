@@ -18,11 +18,13 @@ const ScrollInfo = () => {
     };
   }, []);
 
-  const scrollLengthKm = (scrollLength * pixelsToKmScale).toFixed(0);
+  const scrollLengthKm = Math.floor(scrollLength * pixelsToKmScale);
+  const formattedScrollLength = Math.floor(scrollLength);
 
   return (
     <p className="fixed-text">
-      You have scrolled <span id="scrollLength">{scrollLength}</span> pixels.
+      You have scrolled <span id="scrollLength">{formattedScrollLength}</span>{" "}
+      pixels.
       <br />
       Which is approximately <span id="scrollLengthKm">
         {scrollLengthKm}

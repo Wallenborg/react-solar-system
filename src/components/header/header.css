@@ -7,10 +7,11 @@
   align-items: center;
 }
 .title {
-  margin-top: 70px;
+  margin-top: 125px;
   font-size: 5rem;
   font-family: monospace;
   color: firebrick;
+  cursor: default;
 }
 
 .sub-titel {
@@ -18,6 +19,7 @@
   font-size: 1rem;
   font-family: monospace;
   color: firebrick;
+  cursor: default;
 }
 
 .header-text-scale {
@@ -26,6 +28,7 @@
   margin-top: 5px;
   color: antiquewhite;
   text-align: end;
+  cursor: default;
 }
 
 .header-text {
@@ -35,6 +38,7 @@
   margin-bottom: 30px;
   color: antiquewhite;
   text-align: center;
+  cursor: default;
 }
 
 .header-text-time {
@@ -42,4 +46,5 @@
   font-size: 0.9rem;
   max-width: 600px;
   color: firebrick;
+  cursor: default;
 }

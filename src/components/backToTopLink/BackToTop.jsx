@@ -50,7 +50,7 @@ const BackToTop = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       // Set the threshold value based on when you want the BackToTop component to appear
-      const threshold = 1000;
+      const threshold = 6000;
 
       setShowBackToTop(scrollY > threshold);
     };

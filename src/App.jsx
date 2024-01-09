@@ -1,16 +1,18 @@
 import "./App.css";
-import Header from "./components/Header";
-import Spaceship from "./components/Spaceship";
-import ScrollInfo from "./components/ScrollInfo";
-import AllPlanets from "./components/AllPlanets";
-import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop";
-import AllAlerts from "./components/AllAlerts";
+import Header from "./components/header/Header";
+import Spaceship from "./components/spaceship/Spaceship";
+import ScrollInfo from "./components/scrollInfo/ScrollInfo";
+import AllPlanets from "./components/planets/AllPlanets";
+import Footer from "./components/footer/Footer";
+import BackToTop from "./components/backToTopLink/BackToTop";
+import AllAlerts from "./components/alerts/AllAlerts";
+import DropdownMemy from "./components/dropdownMeny/DropdownMeny";
 
 function App() {
   return (
     <div className="wrapper">
       <Header />
+      <DropdownMemy />
       <Spaceship />
       <ScrollInfo />
       <BackToTop />

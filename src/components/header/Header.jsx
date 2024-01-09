@@ -13,10 +13,10 @@ function Header() {
         offering a sense of the enormity of space.
       </p>
       <p className="header-text-time">
-        Approximate scrolling time to Earth: 90 Seconds.
+        Approximate Scrolling time to Earth: 90 Seconds.
       </p>
       <p className="header-text-time">
-        Approximate scrolling time to Pluto: 1 Hour.
+        Approximate Scrolling time to Pluto: 1 Hour.
       </p>
     </div>
   );
