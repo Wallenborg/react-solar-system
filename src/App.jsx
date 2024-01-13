@@ -6,14 +6,16 @@ import AllPlanets from "./components/planets/AllPlanets";
 import Footer from "./components/footer/Footer";
 import BackToTop from "./components/backToTopLink/BackToTop";
 import AllAlerts from "./components/alerts/AllAlerts";
-import DropdownMemy from "./components/dropdownMeny/DropdownMeny";
+import DropdownMeny from "./components/dropdownMeny/DropdownMeny";
+import SpaceInfo from "./components/spaceInfo/SpaceInfo";
 
 function App() {
   return (
     <div className="wrapper">
       <Header />
-      <DropdownMemy />
+      <DropdownMeny />
       <Spaceship />
+      <SpaceInfo />
       <ScrollInfo />
       <BackToTop />
       <AllPlanets />
