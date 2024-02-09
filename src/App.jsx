@@ -8,12 +8,14 @@ import BackToTop from "./components/backToTopLink/BackToTop";
 import AllAlerts from "./components/alerts/AllAlerts";
 import DropdownMeny from "./components/dropdownMeny/DropdownMeny";
 import SpaceInfo from "./components/spaceInfo/SpaceInfo";
+import Stars from "./components/stars/Stars";
 
 function App() {
   return (
     <div className="wrapper">
       <Header />
       <DropdownMeny />
+      <Stars />
       <Spaceship />
       <SpaceInfo />
       <ScrollInfo />

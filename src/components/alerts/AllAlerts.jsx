@@ -45,7 +45,6 @@ function ShowAlert({ places }) {
                 boxShadow:
                   "0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.8)",
                 border: "2px solid transparent",
-                background: "linear-gradient(45deg, #ff00ff, #00ffff)",
                 background: "rgb(37, 36, 36)",
                 WebkitBackgroundClip: "text",
               }}
